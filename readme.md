@@ -29,7 +29,7 @@
 |--|--|
 |Partition      |  |
 |Data Type      | json |
-|Example `Payload`|{ "order_id": int, "portfolio_id": int, "portfolio_name": "string", "portfolio_product_id": int, "tenant_code": "string" }| `
+|Example `Payload`|{ "order_id": int, "portfolio_id": int, "portfolio_name": "string", "portfolio_account_id": int, "tenant_code": "string" }| `
 |Producer       | Portfolio Service  |
 |Consumer(s)       | Order Service |
 |Notes          |  |
